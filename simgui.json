@@ -1,0 +1,148 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon FX (v6)[6]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Pose": "Field2d",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/AutoAim": "Command",
+      "/SmartDashboard/AutoAimPathCommand": "Command",
+      "/SmartDashboard/Better Rotate To Shoot": "Command",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/InstantCommand": "Command",
+      "/SmartDashboard/Module 0": "Mechanism2d",
+      "/SmartDashboard/Module 1": "Mechanism2d",
+      "/SmartDashboard/Module 2": "Mechanism2d",
+      "/SmartDashboard/Module 3": "Mechanism2d",
+      "/SmartDashboard/PrintAngle": "Command",
+      "/SmartDashboard/RotationOff": "Command",
+      "/SmartDashboard/Test Conditional Command": "Command",
+      "/SmartDashboard/addVisionMeasurment": "Command",
+      "/SmartDashboard/amp": "Command",
+      "/SmartDashboard/forceShoot": "Command",
+      "/SmartDashboard/goStage": "Command",
+      "/SmartDashboard/goToBlueStage": "Command",
+      "/SmartDashboard/stage": "Command",
+      "/SmartDashboard/toggleAutoAngle": "Command",
+      "/SmartDashboard/turnToShoot": "Command"
+    },
+    "windows": {
+      "/FMSInfo": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/Pose": {
+        "bottom": 1476,
+        "height": 8.210550308227539,
+        "left": 150,
+        "right": 2961,
+        "top": 79,
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Auto Chooser": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoAim": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoAimPathCommand": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/PrintAngle": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/RotationOff": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/amp": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/forceShoot": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/goStage": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/toggleAutoAngle": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "Persistent Values": {
+      "open": false
+    },
+    "retained": {
+      "SmartDashboard": {
+        "open": true
+      }
+    },
+    "transitory": {
+      "Pose": {
+        "double[]##v_/Pose/robotPose": {
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "PrintAngle": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Clients": {
+      "open": true
+    },
+    "Server": {
+      "Publishers": {
+        "open": true
+      },
+      "Subscribers": {
+        "open": true
+      }
+    },
+    "shuffleboard@2": {
+      "Publishers": {
+        "open": true
+      },
+      "Subscribers": {
+        "open": true
+      },
+      "open": true
+    },
+    "visible": true
+  }
+}
